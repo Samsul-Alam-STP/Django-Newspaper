@@ -5,4 +5,13 @@ from django.forms import fields
 from .models import CustomUser
 
 
-class CustomUserCreationForm(usercrea)
+class CustomUserCreationForm(UserCreationForm):
+    class Meta(UserCreationForm):
+        model = CustomUser
+        fields = UserCreationForm.Meta.fields + ('age',)
+
+
+class CustomUserChangeForm(UserChangeForm):
+    class Meta:
+        model = CustomUser
+        fields = UserChangeForm.Meta.fields
