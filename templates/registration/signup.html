@@ -1,5 +1,4 @@
-{% extends 'base.html' %} {% block tittle %} Sign Up {% endblock tittle %} {% block
-content %}
+{% extends 'base.html' %} {% block tittle %} Sign Up {% endblock tittle %} {% block content %}
 <h2>Sign Up</h2>
 <form method="POST">
   {% csrf_token %} {{ form.as_p }}
