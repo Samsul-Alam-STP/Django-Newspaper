@@ -1,4 +1,4 @@
-###Django Newspaper App
+## Django Newspaper App
 <br/>
 Build a full fledged Newspaper app.With Authorization and authentication.
 
