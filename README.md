@@ -1,6 +1,6 @@
 ## Django Newspaper App
 <br/>
-Build a full fledged Newspaper app.With Authorization and authentication.
+Build a full fledged Newspaper app.Implemented CRUD features using Django with Authorization and authentication.
 
 check it out here - https://d-news.herokuapp.com/
 
